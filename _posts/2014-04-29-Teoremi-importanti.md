@@ -12,17 +12,15 @@ Esempio
 
 Un markdown è fatto in questo modo.
 
+Per ottenere una lista puntata:
 
- + 1
++ 1
 + 2
 + 3
 + 3.1
 + 3.2
 
-
- * kram
-+ down
-- now
+Per ottenere una lista numerata:
 
 1. kram
 2. down
@@ -30,10 +28,16 @@ Un markdown è fatto in questo modo.
 
 Test di titolo e resto
 -----
-Come si può vedere qui succede qualcosa
+Per inserire un immagine
 
 ![Drawing A](http://spikedmath.com/comics/542-science-vs-math.png)
-=
+
+altrimenti
+
+<figure>
+	<img src="http://spikedmath.com/comics/542-science-vs-math.png)">
+	<figcaption>Vignetta satirica sulle differenze tra scienza e matematica</figcaption>
+</figure>
 
 
 

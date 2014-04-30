@@ -124,41 +124,41 @@ body {
 /* Meat
    ========================================================================== */
 p {
-  font-size: 22px;
-  line-height: 33px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .intro {
-  font-size: 32px;
-  line-height: 1.4em;
+  font-size: 28px;
+  line-height: 1.3em;
 }
 
 .post ul li {
-  font-size: 22px;
-  line-height: 33px;
-  margin-bottom: 11px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 10px;
 }
 
 /* Headings
    ========================================================================== */
 h1, .h1 {
-  font-size: 64px;
+  font-size: 60px;
 }
 
 h2, .h2 {
-  font-size: 48px;
+  font-size: 44px;
 }
 
 h3, .h3 {
-  font-size: 32px;
+  font-size: 30px;
 }
 
 h4, .h4 {
-  font-size: 24px;
+  font-size: 21px;
 }
 
 h5, .h5 {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 h6, .h6 {
@@ -170,7 +170,7 @@ h6, .h6 {
 }
 
 blockquote, blockquote p {
-  font-size: 48px;
+  /*font-size: 48px;*/
 }
 
 .archive input {
@@ -179,35 +179,35 @@ blockquote, blockquote p {
 
 @media only screen and (max-width: 480px) {
   p {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .intro {
-    font-size: 24px;
-    line-height: 1.4em;
+    font-size: 22px;
+    line-height: 1.3em;
   }
 
   .post ul li {
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 11px;
   }
 
   h1, .h1 {
-    font-size: 48px;
+    font-size: 44px;
   }
 
   h2, .h2 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   h3, .h3 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   h4, .h4 {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   h5, .h5 {
@@ -223,7 +223,7 @@ blockquote, blockquote p {
   }
 
   blockquote, blockquote p {
-    font-size: 24px;
+    /*font-size: 24px;*/
   }
 
   .archive input {
@@ -280,7 +280,7 @@ strong {
 }
 
 small {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .hilite {
@@ -295,9 +295,9 @@ small {
 blockquote, blockquote p {
   font-style: italic;
   line-height: 1.3em;
-  text-align: center;
+  text-align: right;
   color: #3c3c3c;
-  margin-bottom: 33px;
+  /*margin-bottom: 33px;*/
 }
 
 /*   Code Formatting    */
@@ -366,7 +366,7 @@ input {
 /* Variables and Building Blocks */
 .icons {
   font-family: "Icons";
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px;
 }
 
@@ -389,7 +389,7 @@ input {
   max-width: 960px;
   display: inline;
   float: left;
-  width: 97%;
+  width: 95%;
   margin: 0 1.5%;
   float: none;
   margin: 0 auto;
@@ -409,9 +409,9 @@ input {
 .post {
   display: inline;
   float: left;
-  width: 77%;
+  width: 85%;
   margin: 0 1.5%;
-  max-width: 680px;
+  max-width: 1000px;
   display: block;
   margin: 0 auto;
   float: none;
@@ -472,7 +472,7 @@ header.site-header hgroup {
 }
 header.site-header hgroup h1 {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 100%;
   color: #24536b;
   letter-spacing: 2px;
@@ -480,11 +480,11 @@ header.site-header hgroup h1 {
 }
 
 header.site-header hgroup h1.title {
-  font-size: 50px;
+  font-size: 55px;
 }
 
 header.site-header hgroup a {
-  color: #fff;
+  color: #ddd;
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
@@ -492,7 +492,7 @@ header.site-header hgroup a {
   transition: all 0.2s ease;
 }
 header.site-header hgroup a:hover {
-  text-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
@@ -516,7 +516,7 @@ header.site-header nav {
   zoom: 1;
 }
 header.site-header nav ul li {
-  font-size: 16px;
+  font-size: 18px;
   text-transform: uppercase;
   display: inline;
   font-weight: bold;
@@ -525,7 +525,7 @@ header.site-header nav ul li {
   margin-left: 20px;
 }
 header.site-header nav ul li a {
-  color: white;
+  color: #ddd;
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
@@ -533,7 +533,7 @@ header.site-header nav ul li a {
   transition: all 0.2s ease;
 }
 header.site-header nav ul li a:hover {
-  text-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
@@ -590,11 +590,12 @@ header.site-header nav ul li a:hover {
 }
 .article header hgroup .date {
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   color: #d9d9d9;
   text-transform: uppercase;
   margin-top: 22px;
+  text-align: right;
 }
 .article header .intro {
   text-align: left;
@@ -616,7 +617,7 @@ header.site-header nav ul li a:hover {
   float: left;
   width: 100%;
   margin: 0 1.5%;
-  max-width: 800px;
+  max-width: 1000px;
   display: block;
   margin: 0 auto;
   float: none;
@@ -627,9 +628,9 @@ header.site-header nav ul li a:hover {
   list-style: none;
   display: inline;
   float: left;
-  width: 67%;
+  width: 100%;
   margin: 0 1.5%;
-  margin-left: 21.5%;
+  /*margin-left: 21.5%;*/
   display: block;
   float: none;
 }
@@ -643,6 +644,19 @@ header.site-header nav ul li a:hover {
   margin-bottom: 66px;
   position: relative;
 }
+
+/*
+.archive-wrap .post-list li:hover {
+  background-color: rgba(215,215,215,0.2);  
+  box-shadow:0 0 30px 30px rgba(215,215,215,0.2); 
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+*/
+
 .archive-wrap .post-list li a {
   position: relative;
 }
@@ -653,44 +667,13 @@ header.site-header nav ul li a:hover {
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-.archive-wrap .post-list li a:hover:before {
-  content: '...';
-  color: #d9d9d9;
-  font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
-  position: absolute;
-  margin-left: -70px;
-  font-size: 40px;
-  left: 0;
-  top: -20px;
-  text-align: center;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -webkit-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-.archive-wrap .post-list li a:before {
-  content: '“';
-  color: #d9d9d9;
-  position: absolute;
-  margin-left: -70px;
-  font-size: 60px;
-  z-index: 10;
-  top: -6px;
-  left: 0;
-  text-align: center;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  -webkit-transition: all 1s ease-in-out;
-  -ms-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
+
 .archive-wrap .post-list li h1 {
-  font-size: 32px;
-  font-style: italic;
+  font-size: 40px;
+  font-weight: bold;
 }
 .archive-wrap .post-list .summary {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.45em;
 }
 .archive-wrap .post-list .date {
@@ -703,7 +686,7 @@ header.site-header nav ul li a:hover {
   font-weight: bold;
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-style: normal;
-  color: #d9d9d9;
+  color: #c9c9c9;
   text-transform: uppercase;
   vertical-align: middle;
 }
@@ -717,7 +700,7 @@ header.site-header nav ul li a:hover {
   z-index: 5;
 }
 .post .deets .date {
-  font-size: 16px;
+  font-size: 18px;
   position: relative;
   top: 10px;
   left: 6px;
@@ -739,7 +722,7 @@ header.site-header nav ul li a:hover {
   margin-bottom: 16.5px;
 }
 .post figure figcaption {
-  font-size: 16px;
+  font-size: 17px;
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -790,7 +773,8 @@ header.site-header nav ul li a:hover {
 .post ol li:last-child {
   margin-bottom: 0;
 }
-.post .share {
+/*
+  .post .share {
   text-align: center;
   display: block;
   margin: 0 auto;
@@ -816,6 +800,7 @@ header.site-header nav ul li a:hover {
   -ms-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
+*/
 
 /* Footer Stuff */
 .push {
@@ -826,7 +811,7 @@ footer {
   width: 100%;
   background: #3b3b3b;
   height: 320px;
-  font-size: 22px;
+  font-size: 24px;
   color: #f9f9f9;
   position: relative;
 }
@@ -852,7 +837,7 @@ footer section {
   zoom: 1;
 }
 footer small {
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
   display: block;
   width: 100%;
@@ -874,7 +859,7 @@ footer .list-title {
 footer .prev-posts {
   display: inline;
   float: left;
-  width: 57.0%;
+  width: 60.0%;
   margin: 0 1.5%;
   max-width: 600px;
   min-height: 250px;
@@ -950,15 +935,15 @@ footer .social ul li:last-child {
    ========================================================================== */
 @media only screen and (max-width: 800px) {
   h1 {
-    font-size: 48px;
+    font-size: 44px;
   }
 
   blockquote, blockquote p {
-    font-size: 32px;
+    font-size: 29px;
   }
 
   footer {
-    font-size: 16px;
+    font-size: 15px;
   }
   footer .prev-posts li span.date {
     font-size: 12px;
@@ -1027,11 +1012,11 @@ footer .social ul li:last-child {
     color: white;
   }
   header.site-header a.menu .icons {
-    font-size: 32px;
+    font-size: 26px;
   }
 
   header.site-header a.menu img {
-    width: 24px;
+    width: 19px;
     height: auto;
   }
 
@@ -1057,7 +1042,7 @@ footer .social ul li:last-child {
     display: block;
     margin-left: 0;
     top: 0px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   header.site-header nav ul li a {
@@ -1109,7 +1094,7 @@ footer .social ul li:last-child {
   }
 
   footer {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   small {
