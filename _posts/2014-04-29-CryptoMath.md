@@ -203,5 +203,34 @@ Al posto di usare chiavi, valigette, aerei e governi, ci affidiamo ai nostri com
 
 > Che centra la matematica in tutto ciò? Sarà il computer che farà tutti i suoi giochini con le chiavi\\La matematica non centra nulla, dai...
 
-I programmi che scriviamo li scriviamo noi. `Spesso li ha già scritti qualcun altro`
+I programmi che scriviamo li scriviamo noi. `Spesso li ha già scritti qualcun altro`.\\
+Un programma è scritto in linguaggi diversi ma si basa sempre su degli **algoritmi** che sono il *meccanismo con cui bisogna macinare i dati* che vengono scritti da esseri umani.\\
+I computer semplicemente esegono questi algoritmi, opportunamente tradotti in una lingua che capiscono!
+
+> Ma in tutto questo che centra la matematica?
+
+La Matematica si nasconde nel **come funzionano** queste chiavi. Alla fine sono numeri, come per le nostre valigette.\\
+Dobbiamo però avere un buon sistema per generarle e poterle utilizzare.\\
+Devono esser grandi e durature. Proprio qui entra in gioco la Matematica che fornisce un criterio per creare questi numeri. Grandi e duraturi.
+
+> Cosa vuol dire che un numero è duraturo?
+
+Imagina di avere della supercolla e di incollare i numeri. Dopo è veramente difficile separarli senza romperli.
+
+> Ma esiste la supercolla in matematica? Non ho mai visto questa cosa...
+
+La supercolla è la moltiplicazione. La robustezza sta nella difficoltà di sapere quali sono i due numeri che hai moltiplicato tra loro.\\
+I numeri non sono numeri qualsiasi. Si chiamano `primi` e...
+
+<figure>
+<figcaption>Numeri e supercolla moltiplicativa **Fare il disegno**</figcaption>
+</figure>
+
+> Basta basta... me lo spiegherai un'altra volta.\\ Quindi vuoi dirmi che la nostra sicurezza su Internet per scambiarci chiavi si basa tutto sulla moltiplicazione di numeri speciali?
+
+Sì e funziona meglio di quanto tu possa credere!
+
+### Per questo la Matematica è importante per mantenere i nostri segreti.
+
+
 

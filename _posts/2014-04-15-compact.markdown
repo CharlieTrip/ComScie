@@ -4,7 +4,7 @@ author: Gregorio Baldi, Nelvis Fornasin
 title:  "Topology Groove (pt. II)"
 date:   2014-04-15 17:00:00 +0200
 location: Povo1, room A215
-categories: talk topologia
+categories: talk
 ---
 
 L'intervento, di durata massima di due ore, prevede una rapida rivisitazione delle
