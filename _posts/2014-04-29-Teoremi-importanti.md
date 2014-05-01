@@ -4,7 +4,7 @@ author: Brunetta Carlo
 title:  "Esempio di post"
 description: "Piccolo esempio di funzionalità di KramDown e di piccole cose che si riescono a mettere qui e lì, circa."
 date:   2014-04-29 15:00:00 +0200
-categories: articles
+categories: ocma
 ---
 
 Esempio

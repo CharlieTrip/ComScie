@@ -13,7 +13,8 @@ image:
         <div class="featured-image" style="background-image: url({{ site.url }}/images/typewriter.jpg)"></div>
           <article class="archive-wrap">
               <ol class="post-list">
-                  {% for post in site.categories['articles'] %}
+                  {% for post in site.categories['ocma'] %}
+                    {% if post.categories contains 'ocma' %}
                       <li>
                         <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
                             <h1><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -21,6 +22,7 @@ image:
                             <p class="">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 250 }}{% endif %}</p>
                         </div>
                       </li>
+                    {% endif %}
                   {% endfor %}
               </ol>
           </article>

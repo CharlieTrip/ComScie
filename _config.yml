@@ -19,8 +19,7 @@ links:
   - title: Chi siamo
     url: /about
   - title: Occhio Matematico
-    url: #
-    external: true
+    url: /ocma
   - title: Giochi vari
     url: #
     external: true
@@ -49,7 +48,7 @@ kramdown:
     coderay_css: class
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title
+permalink: /:categories/:title
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]

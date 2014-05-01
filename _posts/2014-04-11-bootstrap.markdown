@@ -4,7 +4,7 @@ author: Riccardo Pedrotti
 title:  "Topology Groove (pt. I)"
 date:   2014-04-11 15:00:00 +0200
 location: Povo1, room A214
-categories: talk topologia
+categories: ocma topologia
 ---
 
 

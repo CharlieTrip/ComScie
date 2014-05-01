@@ -3,7 +3,7 @@ layout: post
 author: maker
 title:  "Minimum Fixed Point"
 date:   2014-04-07 15:15:02
-categories: talk random
+categories: ocma random
 ---
 
 Questo post e' un mero esercizio di stile.
