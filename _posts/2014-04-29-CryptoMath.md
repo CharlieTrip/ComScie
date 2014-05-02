@@ -226,7 +226,8 @@ I numeri non sono numeri qualsiasi. Si chiamano `primi` e...
 <figcaption>Numeri e supercolla moltiplicativa **Fare il disegno**</figcaption>
 </figure>
 
-> Basta basta... me lo spiegherai un'altra volta.\\ Quindi vuoi dirmi che la nostra sicurezza su Internet per scambiarci chiavi si basa tutto sulla moltiplicazione di numeri speciali?
+> Basta basta... me lo spiegherai un'altra volta.
+> Quindi vuoi dirmi che la nostra sicurezza su Internet per scambiarci chiavi si basa tutto sulla moltiplicazione di numeri speciali?
 
 Sì e funziona meglio di quanto tu possa credere!
 
