@@ -2,12 +2,12 @@
 layout: post
 author: Brunetta Carlo
 title:  "L'arte dei segreti : Crittografia"
-description: "In una società moderna come la nostra, siamo veramente al sicuro? Possiamo dormire sogni tranquilli?"
+description: "Dialogo con Billy sulla sicurezza quotidiana, quella di Internet."
 date:   2014-04-29 18:00:00 +0200
-categories: draft
+categories: articles
 ---
 
-Internet - Informazioni e segreti
+Informazioni e segreti
 ---
 
 Nella nostra quotidianità compriamo cose, socializziamo, pianifichiamo viaggi e chiediamo informazioni, specialmente quando ci perdiamo!\\
@@ -20,92 +20,56 @@ Esatto. Poi ci colleghiamo ad Internet e scriviamo qualsiasi cosa su Facebook, T
 
 ### Quanto è ormai importante questa vita digitale?
 
-Ci affidiamo al computer perché lo riteniamo sicuro, capace di nascondere i nostri **segreti**.\\
-Ma è effettivamente così?
+Ci affidiamo al computer perché lo riteniamo sicuro, capace di nascondere i nostri **segreti**.
 
+### Ma come si può trasformare qualcosa in segreto?
 
-Paradosso del cybernauta
+Per poter veder ciò, dobbiamo prima capire come funziona Internet.
+
+Internet
 ---
 
-Giornata di pioggia. Ed il nostro Billy, che scrive sul lato destro, arriva al supermercato dove ad aspettarlo, all'entrata, c'è un signore ben vestito, giacca e cravatta che lo ferma dicendogli che in quel giorno, il supermercato stava premiando le persone che avrebbero fatto la spesa in quel supermercato!
+Internet è **la** rivoluzione della fine dello scorso millennio. Ci permette di fare qualsiasi cosa e spesso anche di più.
 
-> Che fortunato! Ma cosa devo fare per ottenere il premio?
+> Ma come funziona?
 
-Il signore, lentamente, spiega a Billy che l'unica cosa che deve fare è lasciare il suo indirizzo di casa e di lasciare 15€ per le spese di spedizione:
-
-> Ah... non ci casco... vogliono rubarmi i soldi...
-
-e se ne va, arrabbiato per aver quasi subito una truffa.
-
-Dopo un'oretta, Billy arriva a casa, sistema la spesa e si mette a navigare su Internet. Dopo aver controllato le notifiche su Facebook, trova questo:
+Vedi Billy, Internet funziona come la posta. Quella del postino.
 
 <figure>
-<img src="{{ site.url }}/images/visitorscam.jpg"/>
+<figcaption> Un postino! O tanti postini? **Fare il disegno**</figcaption>
 </figure>
 
-> Ehi! Ho vinto un premio perché sono il milionesimo visitatore! Forza, devo clickare e ritirare il premio!
+> Non comprendo...
 
-Billy, non funziona così...
-
-> Tutto quel che vogliono è il mio indirizzo di casa, per poter spedire il premio. **E i dati d'ingresso del mio conto bancario...** ah beh! Pagare le spese di spedizione. Dai, metto tutto e poi aspetto il mio premio! Chissà di cosa si tratta...
-
-Billy, è una truffa come quella del supermercato.
-
-> No no... questi sono seri. Guarda che bel sito che hanno!
-
-
-Billy scrive i suoi dati, invia. Aspetta del tempo e niente. Controlla il suo conto bancario e...
-
-> Dove sono i miei soldi? Controllo i movimenti... un bonifico ad un conto polacco? Non l'ho mai fatto... dove sono i miei soldi?
-
-
-### Anche su Internet c'è gente che vuole fregarti.
-
-Ma come proteggerci?
----
-
-### Internet è Anarchia.
-
-Ognuno di noi può fare e dire ciò che vuole.\\
-Nessuno ci vieta di rubare l'identità di altre persone o aziende.\\
-Ogni aspetto della nostra vita è ormai memorizzato da qualche parte in un qualche computer. Tutta questa valanga di informazioni è lì pronta per esser rubata da qualcuno.
-
-> Ma come possono rubare queste informazioni?
+Ogni volta che tu apri un collegamento su Internet, effettivamente stai chiedendo ad un altra persona che ti mostri la sua pagina.\\
+Quindi gli scrivi una lettera mettendo il destinatario, il tuo indirizzo (così può risponderti!) e dentro una lettera in cui spieghi che vorresti vedere il loro sito.\\
+Tu invii utilizzando la rete. Come se fosse un postino.
 
 <figure>
-<img src="{{ site.url }}/images/phishing.png"/>
-<figcaption>Fonte : <a href="http://visiwa.net/phishing-come-funziona-hackers/" target="_blank">Visiwa</a></figcaption>
+<figcaption>Billy che consegna una lettera intestata che poi arriva a Google **Fare il disegno**</figcaption>
 </figure>
 
-> Massì tante parole, tanti disegni e troppe spiegazioni. Che danni potranno mai fare?
+> Curioso!
 
-Ti hanno già rubato i soldi che avevi in banca...
+Ma c'è un problema che nella realtà non c'è.
 
-> Capirai... non erano così tanti... però mi scoccia averli persi...
+### Sulla rete puoi aprire le lettere senza che il destinatario ed il mittente lo sappiano.
 
-...e sanno dove abiti visto che gli hai dato il tuo indirizzo di casa!
+> Ma quindi tutti possono sapere che sito voglio guardare! Anzi, pure io posso vedere quel che cercano gli altri guardando le lettere che passano vicino casa mia!
 
-> Ma come è possibile?! Stai scherzando, vero?
+<figure>
+<figcaption>Billy che legge lettere e ferma i postini **Fare il disegno**</figcaption>
+</figure>
 
-No. Se la cosa può spaventarti ancora di più, sei **TU** che gli hai dato queste informazioni.\\
-Per protegerti devi valutare con occhio critico quel che ti viene *offerto*.
+> È il caos!
 
+Pensa che queste lettere sono tantissime e contengono le informazioni più disparate!
 
-
-> Capisco... ma se io volessi mandare i miei dati a un qualche mio amico?
-
-Qui la storia si complica...
-
-
-
-
-
+> Come posso comunicare senza che nessuno sappia cosa voglio dire?
 
 
 L'arte dei segreti
 ---
-
-> Quindi? Devo mandare il mio pin della banca ad Anna e dopo quel che mi hai detto non sono così sicuro di scriverglielo via Internet...
 
 Non devi preoccuparti Billy. Dalla tua parte hai la **crittografia**.
 
@@ -113,7 +77,7 @@ Non devi preoccuparti Billy. Dalla tua parte hai la **crittografia**.
 
 ### Crittografia.
 
-Immagina di lavorare per i servizi segreti. Di preciso devi portare documenti top secret da una parte all'altra del mondo.
+Immagina di lavorare per i servizi segreti. Di preciso devi portare documenti top secret da una parte all'altra del mondo. Come un postino!
 
 > Mi pagano bene?
 
@@ -197,11 +161,11 @@ Esatto Billy, funziona. Finché i ladri non trovano i codici...\\
 <figcaption>Aggiornare chiavi. Diagramma **Fare il disegno**</figcaption>
 </figure>
 
-> E che centra con la crittogra-cosa?
+> Ma tutto questo dove lo trovo nella realtà?
 
 Al posto di usare chiavi, valigette, aerei e governi, ci affidiamo ai nostri computer, internet e alla Matematica.
 
-> Che centra la matematica in tutto ciò? Sarà il computer che farà tutti i suoi giochini con le chiavi\\La matematica non centra nulla, dai...
+> Che centra la matematica in tutto ciò? Sarà il computer che farà tutti i suoi giochini con le chiavi <br /> La matematica non centra nulla, dai...
 
 I programmi che scriviamo li scriviamo noi. `Spesso li ha già scritti qualcun altro`.\\
 Un programma è scritto in linguaggi diversi ma si basa sempre su degli **algoritmi** che sono il *meccanismo con cui bisogna macinare i dati* che vengono scritti da esseri umani.\\
@@ -213,7 +177,7 @@ La Matematica si nasconde nel **come funzionano** queste chiavi. Alla fine sono 
 Dobbiamo però avere un buon sistema per generarle e poterle utilizzare.\\
 Devono esser grandi e durature. Proprio qui entra in gioco la Matematica che fornisce un criterio per creare questi numeri. Grandi e duraturi.
 
-> Cosa vuol dire che un numero è duraturo?
+> Grande lo capisco ma cosa vuol dire che un numero è duraturo?
 
 Imagina di avere della supercolla e di incollare i numeri. Dopo è veramente difficile separarli senza romperli.
 
@@ -231,7 +195,7 @@ I numeri non sono numeri qualsiasi. Si chiamano `primi` e...
 
 Sì e funziona meglio di quanto tu possa credere!
 
-### Per questo la Matematica è importante per mantenere i nostri segreti.
+### La Matematica è importante per mantenere i nostri segreti.
 
 
 
