@@ -36,6 +36,7 @@ Internet è **la** rivoluzione della fine dello scorso millennio. Ci permette di
 Vedi Billy, Internet funziona come la posta. Quella del postino.
 
 <figure>
+<img src="{{ site.url }}/images/cript/1.jpg"/>
 <figcaption> Un postino! O tanti postini? **Fare il disegno**</figcaption>
 </figure>
 
@@ -46,6 +47,8 @@ Quindi gli scrivi una lettera mettendo il destinatario, il tuo indirizzo (così 
 Tu invii utilizzando la rete. Come se fosse un postino.
 
 <figure>
+
+<img src="{{ site.url }}/images/cript/2.jpg"/>
 <figcaption>Billy che consegna una lettera intestata che poi arriva a Google **Fare il disegno**</figcaption>
 </figure>
 
@@ -58,6 +61,7 @@ Ma c'è un problema che nella realtà non c'è.
 > Ma quindi tutti possono sapere che sito voglio guardare! Anzi, pure io posso vedere quel che cercano gli altri guardando le lettere che passano vicino casa mia!
 
 <figure>
+<img src="{{ site.url }}/images/cript/3.jpg"/>
 <figcaption>Billy che legge lettere e ferma i postini **Fare il disegno**</figcaption>
 </figure>
 
@@ -85,6 +89,7 @@ Se non ti fai rubare le informazioni, pagano decisamente bene.\\
 Ora, stai partendo da Milano col tuo aereo :
 
 <figure>
+<img src="{{ site.url }}/images/cript/4.jpg"/>
 <figcaption>Billy con un cartellone in mano con scritto TOP SECRET all'aereoporto. **Fare il disegno**</figcaption>
 </figure>
 
@@ -97,12 +102,14 @@ Bravo Billy. Per questo motivo hanno inventato le valigette con la chiusura col 
 Sì...
 
 <figure>
+<img src="{{ site.url }}/images/cript/5.jpg"/>
 <figcaption>Billy con la valigetta all'aereoporto. **Fare il disegno**</figcaption>
 </figure>
 
 > Beh, ora sono sicuro! Posso partire e guadagnarmi un po' di soldi!
 
 <figure>
+<img src="{{ site.url }}/images/cript/6.jpg"/>
 <figcaption>La valigia di Billy con altre valigie e un tizio mascherato che guarda le valigie **Fare il disegno**</figcaption>
 </figure>
 
@@ -111,6 +118,7 @@ Sì...
 Billy, hai cambiato il codice?
 
 <figure>
+<img src="{{ site.url }}/images/cript/7.jpg"/>
 <figcaption>Il ladro con in mano un foglio con scritto *Codici standard per valigette* **Fare il disegno**</figcaption>
 </figure>
 
@@ -131,6 +139,7 @@ Ora sei arrivato a destinazione con la tua valigetta `super protetta`.
 > La consegno e gli dico il codice per aprirla e mi prendo i miei soldi!
 
 <figure>
+<img src="{{ site.url }}/images/cript/8.jpg"/>
 <figcaption>Billy che consegna la valigia ad un governativo con la faccia del ladro che dice *ora la consegno io* **Fare il disegno**</figcaption>
 </figure>
 
@@ -143,12 +152,14 @@ Forse non sei tu che deve sapere il codice per aprirla.
 Va bene, va bene... Guarda, è uscita una valigetta speciale che si chiude con alcuni codici e si apre con un codice particolare che dipende da quello di chiusura. Tra l'altro, non sono uguali. Su questo sito governativo ci son dei codici per chiudere le valigette ma non ci sono i codici per aprirli.
 
 <figure>
+<img src="{{ site.url }}/images/cript/9.jpg"/>
 <figcaption>Valigetta con codice di chiusura e apertura e il sito governativo con i codici di chiusura **Fare il disegno**</figcaption>
 </figure>
 
 Perché non trasportare il codice segreto della tua prima valigia dentro una di queste valigie speciali? Così dopo ti basta viaggiare con la tua valigia normale senza che tu debba dare il codice a nessuno!
 
 <figure>
+<img src="{{ site.url }}/images/cript/10.jpg"/>
 <figcaption>Valigia speciale e valigia normale e i viaggi **Fare il disegno**</figcaption>
 </figure>
 
@@ -156,10 +167,6 @@ Perché non trasportare il codice segreto della tua prima valigia dentro una di 
 
 Esatto Billy, funziona. Finché i ladri non trovano i codici...\\
 ...ma basta cambiarli di tanto in tanto!
-
-<figure>
-<figcaption>Aggiornare chiavi. Diagramma **Fare il disegno**</figcaption>
-</figure>
 
 > Ma tutto questo dove lo trovo nella realtà?
 
@@ -187,6 +194,7 @@ La supercolla è la moltiplicazione. La robustezza sta nella difficoltà di sape
 I numeri non sono numeri qualsiasi. Si chiamano `primi` e...
 
 <figure>
+<img src="{{ site.url }}/images/cript/11.jpg"/>
 <figcaption>Numeri e supercolla moltiplicativa **Fare il disegno**</figcaption>
 </figure>
 
