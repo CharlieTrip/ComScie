@@ -20,12 +20,12 @@ links:
     url: /about
   - title: Occhio Matematico
     url: /ocma
-  - title: Giochi vari
-    url: #
-    external: true
-  - title: Pillole in foto
-    url: #
-    external: true
+ # - title: Giochi vari
+ #   url: #
+ #   external: true
+ # - title: Pillole in foto
+ #   url: #
+ #   external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Rome
