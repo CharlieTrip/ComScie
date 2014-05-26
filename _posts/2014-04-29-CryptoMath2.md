@@ -37,7 +37,6 @@ Vedi Billy, Internet funziona come la posta. Quella del postino.
 
 <figure>
 <img src="{{ site.url }}/images/cript/1.jpg"/>
-<figcaption> Un postino! O tanti postini? **Fare il disegno**</figcaption>
 </figure>
 
 > Non comprendo...
@@ -49,7 +48,6 @@ Tu invii utilizzando la rete. Come se fosse un postino.
 <figure>
 
 <img src="{{ site.url }}/images/cript/2.jpg"/>
-<figcaption>Billy che consegna una lettera intestata che poi arriva a Google **Fare il disegno**</figcaption>
 </figure>
 
 > Curioso!
@@ -62,7 +60,6 @@ Ma c'è un problema che nella realtà non c'è.
 
 <figure>
 <img src="{{ site.url }}/images/cript/3.jpg"/>
-<figcaption>Billy che legge lettere e ferma i postini **Fare il disegno**</figcaption>
 </figure>
 
 > È il caos!
@@ -90,7 +87,6 @@ Ora, stai partendo da Milano col tuo aereo :
 
 <figure>
 <img src="{{ site.url }}/images/cript/4.jpg"/>
-<figcaption>Billy con un cartellone in mano con scritto TOP SECRET all'aereoporto. **Fare il disegno**</figcaption>
 </figure>
 
 > Aspetta aspetta... così tutti sapranno il segreto!
@@ -103,14 +99,12 @@ Sì...
 
 <figure>
 <img src="{{ site.url }}/images/cript/5.jpg"/>
-<figcaption>Billy con la valigetta all'aereoporto. **Fare il disegno**</figcaption>
 </figure>
 
 > Beh, ora sono sicuro! Posso partire e guadagnarmi un po' di soldi!
 
 <figure>
 <img src="{{ site.url }}/images/cript/6.jpg"/>
-<figcaption>La valigia di Billy con altre valigie e un tizio mascherato che guarda le valigie **Fare il disegno**</figcaption>
 </figure>
 
 > Oh cavoli... beh... deve sapere il numero della valigetta per...
@@ -119,7 +113,6 @@ Billy, hai cambiato il codice?
 
 <figure>
 <img src="{{ site.url }}/images/cript/7.jpg"/>
-<figcaption>Il ladro con in mano un foglio con scritto *Codici standard per valigette* **Fare il disegno**</figcaption>
 </figure>
 
 > Dannazione!
@@ -140,7 +133,6 @@ Ora sei arrivato a destinazione con la tua valigetta `super protetta`.
 
 <figure>
 <img src="{{ site.url }}/images/cript/8.jpg"/>
-<figcaption>Billy che consegna la valigia ad un governativo con la faccia del ladro che dice *ora la consegno io* **Fare il disegno**</figcaption>
 </figure>
 
 > Ma come? Sì è messo in mezzo all'ultimo! E sà la combinazione! Ma come posso fare?
@@ -153,14 +145,12 @@ Va bene, va bene... Guarda, è uscita una valigetta speciale che si chiude con a
 
 <figure>
 <img src="{{ site.url }}/images/cript/9.jpg"/>
-<figcaption>Valigetta con codice di chiusura e apertura e il sito governativo con i codici di chiusura **Fare il disegno**</figcaption>
 </figure>
 
 Perché non trasportare il codice segreto della tua prima valigia dentro una di queste valigie speciali? Così dopo ti basta viaggiare con la tua valigia normale senza che tu debba dare il codice a nessuno!
 
 <figure>
 <img src="{{ site.url }}/images/cript/10.jpg"/>
-<figcaption>Valigia speciale e valigia normale e i viaggi **Fare il disegno**</figcaption>
 </figure>
 
 > Bello! Devo fare un po' di viaggi prima però funziona!
@@ -195,7 +185,6 @@ I numeri non sono numeri qualsiasi. Si chiamano `primi` e...
 
 <figure>
 <img src="{{ site.url }}/images/cript/11.jpg"/>
-<figcaption>Numeri e supercolla moltiplicativa **Fare il disegno**</figcaption>
 </figure>
 
 > Basta basta... me lo spiegherai un'altra volta.

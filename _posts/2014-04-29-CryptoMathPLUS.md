@@ -3,7 +3,7 @@ layout: post
 author: Brunetta Carlo
 title:  "Primi, gruppi e crittografia"
 description: "Come si comunica in maniera sicura?"
-date:   2014-04-29 18:00:00 +0200
+date:   2014-05-21 18:00:00 +0200
 categories: ocma
 ---
 
@@ -18,7 +18,7 @@ Ma quali sono?
 
 Ma cosa vuol dire esser *divisibili*?
 
-> Un numero intero $$a$$ è **divisibile** per $$b$$ intero se esiste un valore $$c$$ intero in modo che $$a = bc$$. Allo stesso modo si dice che $$b$$ **divide** $$a$$
+> Un numero intero $$a$$ è **divisibile** per $$b$$ intero se esiste un valore $$c$$ intero in modo che $$a = bc$$.\\ Allo stesso modo si dice che $$b$$ **divide** $$a$$
 
 Quindi 1 divide 2. 2 divide 4. 3 non divide 5! 2 non divide 1 anche se $$1/2 = 0,5$$.\\
 Però $$0,5$$ **non** è intero!
@@ -40,8 +40,8 @@ Quando moltiplichiamo due numeri primi, diciamo $$p$$ e $$q$$, otteniamo un nuov
 $$n = p \cdot q$$ cioé $$n$$ viene diviso da 1 e se stesso ma anche da $$p$$ e $$q$$.\\
 Ma possiamo fare il procedimento inverso. Prendiamo un numero e iniziamo a dividerlo per i suoi divisori, tipo:
 
-+ $$6 = 3 \cdot 2$$
-+ $$9 = 3 \cdot 3$$
++ Ad esempio $$6 = 3 \cdot 2$$
++ Oppure $$9 = 3 \cdot 3$$
 + $$30 = 3 \cdot 10$$ ma $$10 = 5 \cdot 2$$. Quindi $$30 = 3 \cdot 5 \cdot 2$$
 + $$16603 = ?$$ Vediamo se 2 lo divide... no... 3 nemmeno... uhm... quindi non abbiamo numeri che dividono 16603. Quindi 16603 è primo.
 
@@ -66,7 +66,7 @@ E se il numero ottenuto fosse ancora più grande di 12?\\
 Gli avremmo tolto tante volte 12 fino ad ottenere un numero tra 0 e 11.\\
 Con lo stesso criterio possiamo usare un orologio con quante ore vogliamo. Diciamo $$p$$.
 
-> Diremo che un numero $$ n $$ sarà congruo $$m$$ modulo $$p$$, scritto $$ n \equiv m (\mod p)$$, se $$n = k \cdot p + m$$ per un qualche $$k$$ intero cioé $$n$$ è un multiplo di $$p$$ a meno di $$m$$.
+> Diremo che un numero $$ n $$ sarà congruo $$m$$ modulo $$p$$, scritto $$ n \equiv m \bmod p$$, se $$n = k \cdot p + m$$ per un qualche $$k$$ intero cioé $$n$$ è un multiplo di $$p$$ a meno di $$m$$.
 
 Cosa vuol dire questo?\\
 Prendiamo $$p = 16.603$$. Un gran bel numero per un orologio!
@@ -76,7 +76,7 @@ Ora, diciamo di voler fare $$3.015 \cdot 4.756$$ in questo orologio. Sappiamo (d
 Possiamo fare la divisione usuale : $$ 14.339.340 : 16.603 = 863,659579594\cdots$$. Consideriamo la parte intera di questo numero, $$863$$ è il numero di volte che $$p$$ divide il nostro numero in maniera intera. Il resto dopo la virgola è un numero più piccolo di $$p$$ e sarà quindi il nostro resto modulo $$p$$!
 
 $$16.603 \cdot 863 = 14.328.389$$ e ora $$ 14.339.340 - 14.328.389  = 10.951$$ che è minore di $$ p $$.\\
-Quindi $$3.015 \cdot 4.756 = 14.339.340 \equiv 10.951 (\mod 16.603)$$
+Quindi $$3.015 \cdot 4.756 = 14.339.340 \equiv 10.951 \bmod 16.603$$
 
 Abbiamo così un metodo piuttosto veloce per fare le divisioni in modulo.
 
@@ -89,7 +89,7 @@ Per prima cosa, scegliamo due primi $$p$$ e $$q$$. Possibilmente grandi! D'ora i
 Allo stesso modo $$(p-1)\cdot (q-1) = s$$ un numero che utilizzeremo presto.
 
 Scegliamo ora un numero $$e$$ che **NON** ha divisori in comune con $$s$$ (tranne 1!. Questo numero si dice **coprimo**) e sia più piccolo.\\
-Facciamo dei conti e troviamo il numero $$d$$ tale che $$ ed \equiv 1 (\mod s)$$.
+Facciamo dei conti e troviamo il numero $$d$$ tale che $$ ed \equiv 1 \bmod s$$.
 
 Adesso abbiamo tutto quello che ci serve per poter comunicare in maniera sicura!
 
@@ -98,19 +98,19 @@ Vediamolo con un esempio pratico:
 
 + Alice vuole comunicare con Billy. Sceglie i due primi $$p,q$$, calcola $$n = p\cdot q$$ e $$s = (p-1)\cdot(q-1)$$. Trova $$e$$ e $$d$$ come sopra.\\
 Alice comunica a Billy $$n$$ e $$e$$ mentre tiene nascosto $$d$$.
-+ Billy riceve $$n$$ e $$e$$ e prende il suo messaggio $$M$$ ed esegue il conto $$M^e (\mod n)$$ che sarà congruo a $$m$$. Billy comunica $$m$$ ad Alice
-+ Alice calcola $$m^d (\mod n)$$ e ottiene $$M$$.
++ Billy riceve $$n$$ e $$e$$ e prende il suo messaggio $$M$$ ed esegue il conto $$M^e \bmod n$$ che sarà congruo a $$m$$. Billy comunica $$m$$ ad Alice
++ Alice calcola $$m^d \bmod n$$ e ottiene $$M$$.
 
 Perché ottiene $$M$$ ?
 
 ### Teorema di Fermat - Eulero
-> Se $$n = p \cdot q$$ è un intero positivo con $$p,q$$ primi ed $$a$$ è coprimo (non ha divisori comuni tranne 1) rispetto ad $$n$$, allora\\
-$$a^{(p-1)(q-1)}\equiv 1 (\mod n)$$
+> Se $$n = p \cdot q$$ è un intero positivo con $$p,q$$ primi ed $$a$$ è coprimo (non ha divisori comuni tranne 1) rispetto ad $$n$$\\
+allora $$a^{(p-1)(q-1)}\equiv 1 \bmod n$$
 
-Quindi Alice, mentre fa $$m^d$$ in realtà sta facendo $$m^d = M^{e\cdot d}$$. Il fatto che $$ed \equiv 1 (\mod (p-1)(q-1))$$ vuol dire che esiste un valore $$k$$ intero tale che $$ed = 1 + k (p-1)(q-1)$$
+Quindi Alice, mentre fa $$m^d$$ in realtà sta facendo $$m^d = M^{e\cdot d}$$. Il fatto che $$ed \equiv 1 \bmod (p-1)(q-1)$$ vuol dire che esiste un valore $$k$$ intero tale che $$ed = 1 + k (p-1)(q-1)$$
 
 Se sostituiamo, otteniamo
-$$M^{ed} = M^{ 1 + k(p-1)(q-1) } = M \cdot M^{k(p-1)(q-1)} = M \cdot (M^{(p-1)(q-1)})^k \equiv M \cdot 1^k (\mod n) \equiv M (\mod n)$$\\
+$$M^{ed} = M^{ 1 + k(p-1)(q-1) } = M \cdot M^{k(p-1)(q-1)} = M \cdot (M^{(p-1)(q-1)})^k \equiv M \cdot 1^k \bmod n \equiv M \bmod n$$\\
 Cioé abbiamo ricostruito il messaggio!
 
 
