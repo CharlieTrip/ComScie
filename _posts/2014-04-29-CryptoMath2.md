@@ -3,7 +3,7 @@ layout: post
 author: Brunetta Carlo
 title:  "L'arte dei segreti : Crittografia"
 description: "Dialogo con Billy sulla sicurezza quotidiana, quella di Internet."
-date:   2014-04-29 18:00:00 +0200
+date:   2014-05-13 18:00:00 +0200
 categories: articles
 ---
 
@@ -11,20 +11,21 @@ Informazioni e segreti
 ---
 
 Nella nostra quotidianità compriamo cose, socializziamo, pianifichiamo viaggi e chiediamo informazioni, specialmente quando ci perdiamo!\\
-Molto spesso scriviamo queste cose su un qualche file di testo che salviamo nel nostro pc per **non dimenticare**.\\
-Alle volte nascondiamo dentro una miriade di cartelle, dopo un tortuoso viaggio, altri file di testo con dentro dati a noi importanti, dati a noi **sensibili**.
+Molto spesso scriviamo queste cose su qualche file che salviamo nel nostro computer per **non dimenticare**.\\
+Ci piace nascondere i nostri dati **importanti** in cartelle nascoste, creando percorsi tortuosi a matrioska.
 
-> Quindi tipo password, pin della banca, foto delle vacanze, progetti di lavoro...
+> Quindi password, pin della banca, foto delle vacanze, progetti di lavoro...
 
-Esatto. Poi ci colleghiamo ad Internet e scriviamo qualsiasi cosa su Facebook, Twitter, mail e comunichiamo col mondo intero.
+Esatto. Poi ci con illeghiamo ad Internet e scambiamo le nostre informazioni su Facebook, su Twitter, via mail con il mondo intero.
 
-### Quanto è ormai importante questa vita digitale?
+> Davvero?
 
-Ci affidiamo al computer perché lo riteniamo sicuro, capace di nascondere i nostri **segreti**.
+Sì, ogni volta che compri qualcosa su internet, commenti la foto di un tuo amico oppure quando ti registri ad un nuovo sito.\\
+Ci affidiamo al computer perché lo riteniamo sicuro, capace di *nascondere i nostri segreti* anche quando navighiamo in Internet.
 
-### Ma come si può trasformare qualcosa in segreto?
+### Come possiamo scambiare le nostre informazioni in modo sicuro?
 
-Per poter veder ciò, dobbiamo prima capire come funziona Internet.
+Prima di partire dobbiamo sapere *come funziona Internet*.
 
 Internet
 ---
@@ -33,7 +34,7 @@ Internet è **la** rivoluzione della fine dello scorso millennio. Ci permette di
 
 > Ma come funziona?
 
-Vedi Billy, Internet funziona come la posta. Quella del postino.
+Vedi Billy, Internet funziona come la posta. Quella che ti porta a casa ogni mattina il postino.
 
 <figure>
 <img src="{{ site.url }}/images/cript/1.jpg"/>
@@ -41,49 +42,47 @@ Vedi Billy, Internet funziona come la posta. Quella del postino.
 
 > Non comprendo...
 
-Ogni volta che tu apri un collegamento su Internet, effettivamente stai chiedendo ad un altra persona che ti mostri la sua pagina.\\
-Quindi gli scrivi una lettera mettendo il destinatario, il tuo indirizzo (così può risponderti!) e dentro una lettera in cui spieghi che vorresti vedere il loro sito.\\
-Tu invii utilizzando la rete. Come se fosse un postino.
+Ogni volta che clicki su un con illegamento di Internet stai chiedendo ad un altra persona di mostrarti la sua pagina.\\
+Quindi scrivi una lettera al destinatario, metti il tuo indirizzo (così può risponderti!) e nella lettera chiedi di vedere il suo sito.\\
+Tutto questo lo invii utilizzando *la rete di Internet*. Un po' come le poste tradizionali...
 
 <figure>
-
 <img src="{{ site.url }}/images/cript/2.jpg"/>
 </figure>
 
 > Curioso!
 
-Ma c'è un problema che nella realtà non c'è.
+Ma c'è un problema che nella realtà non abbiamo.
 
 ### Sulla rete puoi aprire le lettere senza che il destinatario ed il mittente lo sappiano.
 
-> Ma quindi tutti possono sapere che sito voglio guardare! Anzi, pure io posso vedere quel che cercano gli altri guardando le lettere che passano vicino casa mia!
+> Ma quindi tutti possono leggere le mie lettere...\\
+> ...ed io posso leggere quelle degli altri...
 
 <figure>
 <img src="{{ site.url }}/images/cript/3.jpg"/>
 </figure>
 
-> È il caos!
+> ...è il caos!
 
-Pensa che queste lettere sono tantissime e contengono le informazioni più disparate!
+Queste lettere sono tantissime e contengono informazioni di ogni tipo!
 
-> Come posso comunicare senza che nessuno sappia cosa voglio dire?
+> Basta.\\
+> Da domani non comunico più niente!
 
 
 L'arte dei segreti
 ---
 
-Non devi preoccuparti Billy. Dalla tua parte hai la **crittografia**.
+Non devi preoccuparti Billy. Dalla tua parte hai la *Crittografia*.
 
-> La critto-cosa? È qualcosa che si mangia?
-
-### Crittografia.
-
-Immagina di lavorare per i servizi segreti. Di preciso devi portare documenti top secret da una parte all'altra del mondo. Come un postino!
+Immagina di lavorare per il governo.\\
+Devi portare documenti top secret da una parte all'altra del mondo. Come un postino!
 
 > Mi pagano bene?
 
 Se non ti fai rubare le informazioni, pagano decisamente bene.\\
-Ora, stai partendo da Milano col tuo aereo :
+Stai per partire da Milano con il tuo aereo :
 
 <figure>
 <img src="{{ site.url }}/images/cript/4.jpg"/>
@@ -91,108 +90,115 @@ Ora, stai partendo da Milano col tuo aereo :
 
 > Aspetta aspetta... così tutti sapranno il segreto!
 
-Bravo Billy. Per questo motivo hanno inventato le valigette con la chiusura col numero. Così solo chi sà il numero può aprire la valig...
-
-> Aspetta aspetta... la valigia me la fornisce il governo?
-
-Sì...
+Bravo Billy. Per questo motivo hanno inventato le valigette a chiusura numerica.\\
+Così solo chi conosce il numero può aprirla e ti viene fornita dal governo.
 
 <figure>
 <img src="{{ site.url }}/images/cript/5.jpg"/>
 </figure>
 
-> Beh, ora sono sicuro! Posso partire e guadagnarmi un po' di soldi!
+> Ora sono sicuro! Posso partire e guadagnarmi un po' di soldi.
 
 <figure>
 <img src="{{ site.url }}/images/cript/6.jpg"/>
 </figure>
 
-> Oh cavoli... beh... deve sapere il numero della valigetta per...
-
-Billy, hai cambiato il codice?
+> Nessun problema, deve sapere il numero della valigetta per...
 
 <figure>
 <img src="{{ site.url }}/images/cript/7.jpg"/>
 </figure>
 
-> Dannazione!
+> Maledizione...
 
 Ora capisci l'importanza di cambiare i codici che proteggono i segreti del governo?
 
 > Capisco capisco... ma se l'avessi cambiata? Non avrei problemi, tanto... come potrebbe aprirla?
 
-**Forza bruta**. Prova tutte le combinazioni fino a trovare quella che funziona.
-Sì Billy, non è la migliore delle cose... però se il viaggio dura ore e la tua valigia ha un codice di solo 3 numeri, capisci che c'è tutto il tempo che si vuole!
+### *Forza bruta*
 
-> Allora dirò al governo di usare valigette con un codice grandissimo!
+Può provare tutte le combinazioni fino a trovare quella che funziona.
+Non è il metodo più efficiente... però se il viaggio dura ore e la tua valigia ha un codice di solo 3 numeri, c'è tutto il tempo necessario!
+
+> Allora dirò al governo di usare valigette con un codice lunghissimo!
 
 Bravo Billy!\\
 Ora sei arrivato a destinazione con la tua valigetta `super protetta`.
 
-> La consegno e gli dico il codice per aprirla e mi prendo i miei soldi!
+> La consegno, comunico il codice per aprirla e mi prendo i miei soldi!
 
 <figure>
 <img src="{{ site.url }}/images/cript/8.jpg"/>
 </figure>
 
-> Ma come? Sì è messo in mezzo all'ultimo! E sà la combinazione! Ma come posso fare?
+> Ma come? Sì è messo in mezzo all'ultimo! Ed ora conosce la combinazione! Come posso fare?
 
-Forse non sei tu che deve sapere il codice per aprirla.
+Forse nemmeno tu devi sapere il codice per aprire la valigietta.
 
-> Cosa? Ma allora come possono aprire la valigetta? Io voglio questo lavoro!
+> Ma allora come possono aprire la valigetta? Io voglio questo lavoro!
 
-Va bene, va bene... Guarda, è uscita una valigetta speciale che si chiude con alcuni codici e si apre con un codice particolare che dipende da quello di chiusura. Tra l'altro, non sono uguali. Su questo sito governativo ci son dei codici per chiudere le valigette ma non ci sono i codici per aprirli.
+Ecco la soluzione.\\
+È uscita una valigetta speciale che si chiude con un codice e si apre con un altro diverso da quello di chiusura.\\
+Su questo sito governativo ci sono i codici per chiudere le valigette ma non ci sono i codici per aprirle.
 
 <figure>
 <img src="{{ site.url }}/images/cript/9.jpg"/>
 </figure>
 
-Perché non trasportare il codice segreto della tua prima valigia dentro una di queste valigie speciali? Così dopo ti basta viaggiare con la tua valigia normale senza che tu debba dare il codice a nessuno!
+Perché non trasportare il codice segreto della tua prima valigia dentro una di queste valigie speciali?\\
+Così dopo puoi viaggiare con la valigia iniziale senza dover dare il codice d'apertura al destinatario!
 
 <figure>
 <img src="{{ site.url }}/images/cript/10.jpg"/>
 </figure>
 
-> Bello! Devo fare un po' di viaggi prima però funziona!
+> Bello! Devo fare un po' di viaggi ma funziona!
 
-Esatto Billy, funziona. Finché i ladri non trovano i codici...\\
+Esatto Billy, funziona. Finché i ladri non trovano i codici di apertura...\\
 ...ma basta cambiarli di tanto in tanto!
 
 > Ma tutto questo dove lo trovo nella realtà?
 
-Al posto di usare chiavi, valigette, aerei e governi, ci affidiamo ai nostri computer, internet e alla Matematica.
+Al posto di usare chiavi, valigette, aerei e governi, ci affidiamo ai nostri computer, Internet e alla Matematica.
 
-> Che centra la matematica in tutto ciò? Sarà il computer che farà tutti i suoi giochini con le chiavi <br /> La matematica non centra nulla, dai...
+> La Matematica? Ma non fa tutto il computer?
 
-I programmi che scriviamo li scriviamo noi. `Spesso li ha già scritti qualcun altro`.\\
-Un programma è scritto in linguaggi diversi ma si basa sempre su degli **algoritmi** che sono il *meccanismo con cui bisogna macinare i dati* che vengono scritti da esseri umani.\\
-I computer semplicemente esegono questi algoritmi, opportunamente tradotti in una lingua che capiscono!
+Il computer esegue dei programmi.\\
+I programmi li scriviamo noi. Spesso li ha già scritti qualcun altro.\\
+Ogni programma è un *algoritmo*, cioé un insieme di regole, istruzioni e azioni che formano una ricetta.\\
+Esiste la ricetta per aprire un file o, come serve a noi, per creare codici che ci permettono di comunicare in maniera sicura.
 
 > Ma in tutto questo che centra la matematica?
 
-La Matematica si nasconde nel **come funzionano** queste chiavi. Alla fine sono numeri, come per le nostre valigette.\\
-Dobbiamo però avere un buon sistema per generarle e poterle utilizzare.\\
-Devono esser grandi e durature. Proprio qui entra in gioco la Matematica che fornisce un criterio per creare questi numeri. Grandi e duraturi.
+La Matematica si nasconde nel **come funzionano** i codici che creiamo. In fondo sono numeri, come per le nostre valigette.\\
+Dobbiamo rispettare le stesse regole delle valigette.\\
+I nostri codici devono esser grandi e duraturi. Proprio qui entra in gioco la Matematica che fornisce un criterio per creare questi numeri. Grandi e duraturi.
 
-> Grande lo capisco ma cosa vuol dire che un numero è duraturo?
+> Un numero duraturo?!
 
-Imagina di avere della supercolla e di incollare i numeri. Dopo è veramente difficile separarli senza romperli.
+Immagina di avere una supercolla che ti permette di incollare i numeri. È una supercolla e quindi sarà difficile separare i numeri incollati.
 
-> Ma esiste la supercolla in matematica? Non ho mai visto questa cosa...
 
-La supercolla è la moltiplicazione. La robustezza sta nella difficoltà di sapere quali sono i due numeri che hai moltiplicato tra loro.\\
-I numeri non sono numeri qualsiasi. Si chiamano `primi` e...
+> Ma esiste la supercolla in matematica?
+
+La supercolla è la moltiplicazione.
 
 <figure>
 <img src="{{ site.url }}/images/cript/11.jpg"/>
 </figure>
 
+Il nostro numero è duraturo quando è difficile trovare i numeri che abbiamo moltiplicato tra loro per ottenerlo.\\
+Difficile come staccare degli oggetti attaccati con la supercolla senza romperli.\\
+I numeri che scegliamo di incollare si chiamano *primi* ed hanno una proprietà particolare.
+
+
+
 > Basta basta... me lo spiegherai un'altra volta.
-> Quindi vuoi dirmi che la nostra sicurezza su Internet per scambiarci chiavi si basa tutto sulla moltiplicazione di numeri speciali?
+> Quindi vuoi dirmi che la nostra sicurezza su Internet si basa tutta sulla moltiplicazione di numeri speciali?
 
-Sì e funziona meglio di quanto tu possa credere!
+Sì e funziona davvero bene!
 
-### La Matematica è importante per mantenere i nostri segreti.
+### La Matematica è importante per proteggere i nostri segreti.
 
 
 

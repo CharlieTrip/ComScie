@@ -7,8 +7,9 @@ image:
   feature: soft-trees.jpg
 ---
 
-<b>Pillole Matematiche</b> nasce da un progetto per il corso di <i>Comunicazione delle Scienze</i> dell'Università di Trento nell'anno 2013/2014.
+*Pillole Matematiche* nasce da un progetto per il corso di **Comunicazione delle Scienze** dell'Università di Trento nell'anno 2013/2014.
 
-### Chi siamo veramente
+### Chi siamo?
 
-Carlo Brunetta e Gregorio Baldi
+Carlo Brunetta e Gregorio Baldi\\
+Due studenti del terzo anno di Matematica.
